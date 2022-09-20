@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "OKCHAN";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/OKCHAN.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MaplestoryOTFBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --mainColor: #fa780a;
+}
+
+span {
+  font-size: 36px;
+  font-family: "MaplestoryOTFBold";
+  margin-left: 12px;
+}
+.myName {
+  text-decoration: underline solid var(--mainColor);
+}
+div {
+  background-color: peru;
+  font-family: "OKCHAN";
+}
+h1 {
+  background-color: violet;
+  font-family: "OKCHAN";
+}
+button {
+  background-color: white;
+  padding: 0;
+  border: 1px solid black;
+  padding: 12px;
+  margin-top: 12px;
+  margin-left: 12px;
+  font-size: 24px;
+  font-family: "OKCHAN";
+  box-shadow: -4px -4px 0 -2px #fa780a, 4px 4px 0 -2px #fa780a;
+  box-shadow: 4px 4px 0 -2px #fa780a;
+  transition: all 0.5s;
+}
+button:hover {
+  box-shadow: -4px -4px 0 0px #fa780a, 4px 4px 0 0px #fa780a;
+}
+button:active {
+  box-shadow: -4px -4px 0 0px #0804f3, 4px 4px 0 0px #3103ff;
+  transition: all 0.1s;
+}
