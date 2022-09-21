@@ -17,6 +17,51 @@
   --mainColor: #fa780a;
 }
 
+@keyframes bgFadeOut {
+  0% {
+    background-color: var(--mainColor);
+  }
+
+  50% {
+    background-color: #3103ff;
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    margin-left: 10%;
+  }
+
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@keyframes heartBeat {
+  0% {
+    font-size: 36px;
+  }
+  25% {
+    font-size: 44px;
+  }
+
+  50% {
+    font-size: 36px;
+  }
+
+  75% {
+    font-size: 44px;
+  }
+
+  100% {
+    font-size: 36px;
+  }
+}
+
 span {
   font-size: 36px;
   font-family: "MaplestoryOTFBold";
